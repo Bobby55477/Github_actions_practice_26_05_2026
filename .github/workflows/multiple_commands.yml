@@ -1,0 +1,14 @@
+name: Multiple commands.
+
+on: workflow_dispatch
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show date
+        run: date
+      - name: show current folder
+        run: pwd
+      - name show files
+        run: ls -la
