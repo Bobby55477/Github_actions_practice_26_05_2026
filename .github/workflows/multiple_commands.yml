@@ -10,5 +10,5 @@ jobs:
         run: date
       - name: show current folder
         run: pwd
-      - name show files
+      - name: show files
         run: ls -la
